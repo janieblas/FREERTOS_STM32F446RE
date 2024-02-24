@@ -1,0 +1,3 @@
+/home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/build/CMakeFiles/blink.dir
+/home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/build/CMakeFiles/edit_cache.dir
+/home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/build/CMakeFiles/rebuild_cache.dir
