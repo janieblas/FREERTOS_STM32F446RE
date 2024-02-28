@@ -10,6 +10,8 @@ set(CPU_PARAMETERS
     -mthumb
     #-nostdlib
     --specs=nano.specs 
+    -mfloat-abi=hard 
+    -mfpu=fpv4-sp-d16
     -g
     -O0
     -Wl,--no-warn-rwx-segments)
@@ -22,6 +24,7 @@ set(INCS
     Inc
     Drivers/CMSIS/Core 
     Drivers/CMSIS/Device/Include
+    Drivers/FreeRTOS/include
     Drivers/stm32f4xx_hal_driver/Inc
 )
 
@@ -34,6 +37,7 @@ set(SRCS
     Src/stm32f4xx_hal_timebase_tim.c    
     Startup/startup.c
     Drivers/CMSIS/Device/Source/system_stm32f4xx.c
+    #HAL_Drivers
     Drivers/stm32f4xx_hal_driver/Src/stm32f4xx_hal.c 
     Drivers/stm32f4xx_hal_driver/Src/stm32f4xx_hal_cortex.c
     Drivers/stm32f4xx_hal_driver/Src/stm32f4xx_hal_tim.c
@@ -42,6 +46,16 @@ set(SRCS
     Drivers/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc.c
     Drivers/stm32f4xx_hal_driver/Src/stm32f4xx_hal_rcc_ex.c
     Drivers/stm32f4xx_hal_driver/Src/stm32f4xx_hal_gpio.c
+    #FREERTOS
+    Drivers/FreeRTOS/list.c
+    Drivers/FreeRTOS/queue.c
+    Drivers/FreeRTOS/tasks.c
+    Drivers/FreeRTOS/timers.c
+    Drivers/FreeRTOS/port.c
+    Drivers/FreeRTOS/heap_4.c
+    Drivers/FreeRTOS/event_groups.c
+    Drivers/FreeRTOS/stream_buffer.c
+
 )
 
 # Executable files

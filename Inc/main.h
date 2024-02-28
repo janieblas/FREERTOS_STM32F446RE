@@ -7,4 +7,7 @@
 //#include "stm32f4xx.h"
 #include "usart.h"
 
+#include "FreeRTOS.h"
+#include "task.h"
+
 #endif /* __MAIN_H */

@@ -1,32 +1,29 @@
-CMakeFiles/blink.dir/Src/main.c.obj: \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Src/main.c \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/main.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdio.h \
+CMakeFiles/blink.dir/Drivers/FreeRTOS/event_groups.c.obj: \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/event_groups.c \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdlib.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/newlib-nano/newlib.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
  /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/assert.h \
- /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/stm32f4xx_hal_conf.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_rcc.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_def.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/alloca.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/FreeRTOS.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /usr/share/arm-gnu-toolchain-13.2.Rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/FreeRTOSConfig.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/CMSIS/Device/Include/stm32f4xx.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/CMSIS/Device/Include/stm32f446xx.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/CMSIS/Core/core_cm4.h \
@@ -35,6 +32,10 @@ CMakeFiles/blink.dir/Src/main.c.obj: \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/CMSIS/Core/cmsis_gcc.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/CMSIS/Core/mpu_armv7.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/CMSIS/Device/Include/system_stm32f4xx.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/stm32f4xx_hal_conf.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_rcc.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_def.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/Legacy/stm32_hal_legacy.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_rcc_ex.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_gpio.h \
@@ -104,13 +105,14 @@ CMakeFiles/blink.dir/Src/main.c.obj: \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_dfsdm.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_lptim.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_mmc.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/usart.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/FreeRTOS.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/FreeRTOSConfig.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/projdefs.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/portable.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/deprecated_definitions.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/portmacro.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/mpu_wrappers.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/task.h \
- /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/list.h
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/list.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/timers.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/task.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/event_groups.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/timers.h

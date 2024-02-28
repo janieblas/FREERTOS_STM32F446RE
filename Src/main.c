@@ -2,8 +2,17 @@
 
 #define LED_PIN 5
 
+static void vBlinkTask1(void *pvParameters);
+static void vBlinkTask2(void *pvParameters);
+
 void SystemClock_Config(void);
 void Error_Handler(void);
+
+/* GetIdleTaskMemory prototype (linked to static allocation support) */
+void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskStackBuffer, uint32_t *pulIdleTaskStackSize );
+/* USER CODE BEGIN GET_IDLE_TASK_MEMORY */
+static StaticTask_t xIdleTaskTCBBuffer;
+static StackType_t xIdleStack[configMINIMAL_STACK_SIZE];
 
 void main(void)
 {
@@ -12,7 +21,6 @@ void main(void)
 
   /* Configure the system clock */
   SystemClock_Config();
-
 
   // Pin configuration (PA5)
   GPIO_InitTypeDef GPIO_InitStruct = {0};
@@ -25,16 +33,33 @@ void main(void)
 
   usart_init(USART2);
 
+
+  xTaskCreate(vBlinkTask1, "BlinkTask1", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+  //xTaskCreate(vBlinkTask2, "BlinkTask2", configMINIMAL_STACK_SIZE, NULL, 2, NULL);
+
+  vTaskStartScheduler();
+
   while(1)
   {
-    printf("Hello, World!\r\n");
-
-    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-    HAL_Delay(500);
-    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-    HAL_Delay(500);
-    
   }
+}
+
+// Tarea para parpadear con temporizador 500 ms
+static void vBlinkTask1(void *pvParameters) {
+    for (;;) {
+      HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+      //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+      vTaskDelay(pdMS_TO_TICKS(500));
+    }
+}
+
+// Tarea para parpadear con temporizador 1000 ms
+static void vBlinkTask2(void *pvParameters) {
+    for (;;) {
+    //HAL_GPIO_TogglePin(LED_PORT, LED_PIN);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+      vTaskDelay(pdMS_TO_TICKS(1000));
+    }
 }
 
 void SystemClock_Config(void) {
@@ -65,6 +90,15 @@ void SystemClock_Config(void) {
     }
   }
 }
+
+void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskStackBuffer, uint32_t *pulIdleTaskStackSize )
+{
+  *ppxIdleTaskTCBBuffer = &xIdleTaskTCBBuffer;
+  *ppxIdleTaskStackBuffer = &xIdleStack[0];
+  *pulIdleTaskStackSize = configMINIMAL_STACK_SIZE;
+  /* place for user code */
+}
+/* USER CODE END GET_IDLE_TASK_MEMORY */
 
 void Error_Handler(void)
 {

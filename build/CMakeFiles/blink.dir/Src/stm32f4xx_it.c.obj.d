@@ -105,4 +105,13 @@ CMakeFiles/blink.dir/Src/stm32f4xx_it.c.obj: \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_lptim.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/stm32f4xx_hal_driver/Inc/stm32f4xx_hal_mmc.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/usart.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/FreeRTOS.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/FreeRTOSConfig.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/projdefs.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/portable.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/deprecated_definitions.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/portmacro.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/mpu_wrappers.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/task.h \
+ /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Drivers/FreeRTOS/include/list.h \
  /home/janieblas/Documents/repositories/FREERTOS_STM32F446RE/Inc/stm32f4xx_it.h
